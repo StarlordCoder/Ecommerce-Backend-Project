@@ -1,0 +1,12 @@
+pydantic[email]
+fastapi
+uvicorn[standard]
+pymongo
+motor
+kafka-python
+protobuf
+googleapis-common-protos
+passlib
+python-jose
+pycryptodome
+aiokafka

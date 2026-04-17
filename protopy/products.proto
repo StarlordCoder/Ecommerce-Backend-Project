@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message pimage {
+  string name = 1;
+  string image = 2;
+  string price = 3;
+  string sex = 4;
+}
+
+message Assin {
+  repeated pimage pimages = 1;
+  repeated string cover = 2;
+}
+
+message PicPayload {
+  Assin assets = 1;
+}
